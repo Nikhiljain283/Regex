@@ -24,6 +24,9 @@ public class UserRegistration {
 		
 		boolean passwordAtleastOneUpperCase = Pattern.matches("^(?=.*[A-Z])[a-zA-Z]{8,}$", "Password");
 		System.out.println(passwordAtleastOneUpperCase);
+		
+		boolean passwordAtleastOneNumber = Pattern.matches("^(?=.*[A-Z])(?=.*[0-9])[0-9A-Za-z]{8,}$", "158ASXPasswor");
+		System.out.println(passwordAtleastOneNumber);
 	}
 
 }
