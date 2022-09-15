@@ -18,6 +18,9 @@ public class UserRegistration {
 		
 		boolean mobileNo = Pattern.matches("^[9]{1}[1]{1}[ ][1-9]{1}[0-9]{9}$", "91 7542968745");
 		System.out.println(mobileNo);
+		
+		boolean passwordMinCharacter = Pattern.matches("^[a-zA-Z0-9]{8,}$", "24681357");
+		System.out.println(passwordMinCharacter);
 	}
 
 }
