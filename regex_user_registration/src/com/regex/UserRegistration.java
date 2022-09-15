@@ -15,6 +15,9 @@ public class UserRegistration {
 
 		boolean email = Pattern.matches("^[a-z]{3}[.]{0,1}[a-z]*@[b]{1}[l]{1}.[c]{1}[o]{1}[.]{0,1}[a-z]*$", "abc@bl.co");
 		System.out.println(email);
+		
+		boolean mobileNo = Pattern.matches("^[9]{1}[1]{1}[ ][1-9]{1}[0-9]{9}$", "91 7542968745");
+		System.out.println(mobileNo);
 	}
 
 }
