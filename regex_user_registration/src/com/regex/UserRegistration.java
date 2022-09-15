@@ -21,6 +21,9 @@ public class UserRegistration {
 		
 		boolean passwordMinCharacter = Pattern.matches("^[a-zA-Z0-9]{8,}$", "24681357");
 		System.out.println(passwordMinCharacter);
+		
+		boolean passwordAtleastOneUpperCase = Pattern.matches("^(?=.*[A-Z])[a-zA-Z]{8,}$", "Password");
+		System.out.println(passwordAtleastOneUpperCase);
 	}
 
 }
