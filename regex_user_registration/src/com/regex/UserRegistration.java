@@ -13,6 +13,8 @@ public class UserRegistration {
 		boolean lastName = Pattern.matches("^[A-Z]{1}[a-zA-Z]{1}[a-zA-Z]+$", "Singh");
 		System.out.println(lastName);
 
+		boolean email = Pattern.matches("^[a-z]{3}[.]{0,1}[a-z]*@[b]{1}[l]{1}.[c]{1}[o]{1}[.]{0,1}[a-z]*$", "abc@bl.co");
+		System.out.println(email);
 	}
 
 }
